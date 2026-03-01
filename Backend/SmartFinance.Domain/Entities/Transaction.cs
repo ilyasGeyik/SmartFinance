@@ -20,5 +20,12 @@ namespace SmartFinance.Domain.Entities
         public bool IsEssential { get; set; } // Temel ihtiyaç mı?
         public string? AiCategorySuggestion { get; set; } // AI:hangi kategoriye uygun
 
+        //--İlişkiler--
+        public Guid AppUserId { get; set; }
+        public AppUser AppUser { get; set; } = null!;
+
+        public Guid CategoryId { get; set; }
+        public Category Category { get; set; } = null!;
+
     }
 }
