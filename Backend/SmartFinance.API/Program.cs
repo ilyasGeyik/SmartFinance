@@ -1,4 +1,10 @@
+﻿using SmartFinance.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//--Servis kayıtları--(Dependency Injection)
+//yazdığımız genişletme metodunu burada çağıracaz bu metod sayesinde artık API veritabanı detaylarını bilmek zorunda değil
+builder.Services.AddInfrastructure(builder.Configuration);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
