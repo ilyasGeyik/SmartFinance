@@ -19,4 +19,10 @@
     <ProjectReference Include="..\SmartFinance.Infrastructure\SmartFinance.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Middlewares\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Filters\" />
+  </ItemGroup>
+
 </Project>

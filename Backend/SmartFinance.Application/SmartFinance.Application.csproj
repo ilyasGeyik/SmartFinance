@@ -2,6 +2,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SmartFinance.Domain\SmartFinance.Domain.csproj" />
+    <ProjectReference Include="..\SmartFinance.Shared\SmartFinance.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Queries\" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SmartFinance.Application\SmartFinance.Application.csproj" />
     <ProjectReference Include="..\SmartFinance.Domain\SmartFinance.Domain.csproj" />
+    <ProjectReference Include="..\SmartFinance.Shared\SmartFinance.Shared.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
