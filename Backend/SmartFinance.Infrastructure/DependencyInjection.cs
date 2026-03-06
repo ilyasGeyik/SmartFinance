@@ -26,6 +26,7 @@ namespace SmartFinance.Infrastructure
             services.AddScoped<IBudgetRepository, BudgetRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;
         }
