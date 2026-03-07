@@ -9,8 +9,9 @@ namespace SmartFinance.Application.DTOs.CategoryDtos
     public class CategoryDto
     {
         // Müşteriye (Ön yüze) Kategori ile ilgili sadece neleri göstermek istiyorsak onları yazıyoruz.
-        public Guid ID { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public string? Icon { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }
